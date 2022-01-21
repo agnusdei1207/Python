@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-# 플라스크는 영혼 HTML 몸체다.
 
 ('pip3 install flask')
 
