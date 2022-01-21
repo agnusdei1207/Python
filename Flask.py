@@ -1,20 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
-
-get_ipython().system('pip3 install matplotlib')
-get_ipython().system('pip3 install opencv-python')
-get_ipython().system('pip3 install flask')
-get_ipython().system('pip3 install facenet')
-get_ipython().system('pip3 install MTCNN')
-get_ipython().system('pip3 install facenet_pytorch')
-get_ipython().system('pip3 install opencv-python')
-get_ipython().system('pip3 install MMCV')
-get_ipython().system('pip3 install IPython')
-get_ipython().system('pip3 install Ipython display')
-
-
+('pip3 install flask')
 
 
 from flask import Flask, request, render_template # render_template : HTML 연결용
