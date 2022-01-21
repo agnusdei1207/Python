@@ -18,7 +18,7 @@ from tensorflow.keras.models import load_model # 저장된 모델 로딩용
 from flask import Flask 
 app = Flask (__name__) #  app 인스턴스화
 
-@app.route('/fileUpload', methods=['POST']) # 트리거 할 함수 이름 // 사용자의 요청을 처리하기 위한 라우터
+@app.route('/fileUpload', methods=['POST']) # 트리거 할 함수 이름 / 사용자의 요청을 처리하기 위한 라우터 / .../fileUpload url
 def hello_world(): 
    
     loaded_model = joblib.load("./model_Park.pkl") # 모델로딩
